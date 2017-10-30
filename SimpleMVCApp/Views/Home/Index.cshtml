@@ -1,0 +1,15 @@
+﻿@using SimpleMVCApp.Data
+@model List<SimpleMVCApp.Data.Fruit>
+@{
+    ViewBag.Title = "DevOps Utrecht";
+}
+<h2>@ViewBag.Environment, @ViewBag.Version</h2>
+<div class="jumbotron">
+    <h1>Fruit:</h1>
+    <table>
+        @foreach (var fruit in @Model)
+        {
+            <tr><td>@fruit.Name</td></tr>
+        }
+    </table>
+</div>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMVCApp", "SimpleMVCApp\SimpleMVCApp.csproj", "{C5B35B5C-5DE5-4D94-93EC-3E3E1AFDED54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMVCApp.Data", "SimpleMVCApp.Data\SimpleMVCApp.Data.csproj", "{D663C19E-2069-4382-8C81-D6F5E7FB82E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMVCApp.Calculator", "SimpleMVCApp.Calculator\SimpleMVCApp.Calculator.csproj", "{24D4912F-7A76-47F8-9D88-BB1F72417EDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMVCApp.Calculator.Test", "SimpleMVCApp.Calculator.Test\SimpleMVCApp.Calculator.Test.csproj", "{638DD114-57CE-4771-9976-A34DC56783CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5C26F31B-C40A-49B9-9CCE-8B272FF7E296}"
+	ProjectSection(SolutionItems) = preProject
+		templates\database.json = templates\database.json
+		templates\docker.json = templates\docker.json
+		templates\docker.parameters.json = templates\docker.parameters.json
+		templates\InstallDSCModules.ps1 = templates\InstallDSCModules.ps1
+		templates\parameters.xml = templates\parameters.xml
+		templates\webserver-dsc.ps1 = templates\webserver-dsc.ps1
+		templates\website.json = templates\website.json
+		templates\website.parameters.json = templates\website.parameters.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5B35B5C-5DE5-4D94-93EC-3E3E1AFDED54}.Debug|Any CPU.ActiveCfg = Test|Any CPU
+		{C5B35B5C-5DE5-4D94-93EC-3E3E1AFDED54}.Debug|Any CPU.Build.0 = Test|Any CPU
+		{C5B35B5C-5DE5-4D94-93EC-3E3E1AFDED54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B35B5C-5DE5-4D94-93EC-3E3E1AFDED54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D663C19E-2069-4382-8C81-D6F5E7FB82E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D663C19E-2069-4382-8C81-D6F5E7FB82E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D663C19E-2069-4382-8C81-D6F5E7FB82E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D663C19E-2069-4382-8C81-D6F5E7FB82E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D4912F-7A76-47F8-9D88-BB1F72417EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D4912F-7A76-47F8-9D88-BB1F72417EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D4912F-7A76-47F8-9D88-BB1F72417EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D4912F-7A76-47F8-9D88-BB1F72417EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{638DD114-57CE-4771-9976-A34DC56783CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638DD114-57CE-4771-9976-A34DC56783CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638DD114-57CE-4771-9976-A34DC56783CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638DD114-57CE-4771-9976-A34DC56783CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CC7B8FA-8DD9-4A28-BDF7-68364F5D890F}
+	EndGlobalSection
+EndGlobal
